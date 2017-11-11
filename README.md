@@ -8,6 +8,7 @@ To measure Stability of Internet, we used nodes-pairs from Planet Lab – A glob
   - US – GR
   - US - NZ
   - US – CA
+
 In measurement Project I had made scripts which ping & traceroute its pair node periodically. Each node will ping & traceroute to another node every 1 hour.
 In this project, I had created Bash Shell Scripts for various Functions. Usage and basic details of scripts are as under.
 
