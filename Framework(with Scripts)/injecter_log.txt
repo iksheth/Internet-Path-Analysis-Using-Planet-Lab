@@ -1,0 +1,48 @@
+======================= TA1 =============================
+Input is TA1
+albany_ccnS17_5@planetlab2.cs.uml.edu
+albany_ccnS17_5@planetlab3.cesnet.cz
+======================= TA2 =============================
+Input is TA2
+albany_ccnS17_5@ricepl-1.cs.rice.edu
+albany_ccnS17_5@planetlab1.cs.aueb.gr
+======================= TA3 =============================
+Input is TA3
+albany_ccnS17_5@planetlab-2.cmcl.cs.cmu.edu
+albany_ccnS17_5@planetlab4.mini.pw.edu.pl
+======================= TP1 =============================
+Input is TP1
+albany_ccnS17_5@planetlab5.eecs.umich.edu
+albany_ccnS17_5@planetlab-n2.wand.net.nz
+======================= TP2 =============================
+Input is TP2
+albany_ccnS17_5@planetlab2.utdallas.edu
+albany_ccnS17_5@planetlab-n1.wand.net.nz
+======================= TP3 =============================
+Input is TP3
+albany_ccnS17_5@planetlab-2.cmcl.cs.cmu.edu
+albany_ccnS17_5@planetlab2.cs.otago.ac.nz
+======================= UU1 =============================
+Input is UU1
+albany_ccnS17_5@salt.planetlab.cs.umd.edu
+albany_ccnS17_5@planetlab1.unr.edu
+======================= UU2 =============================
+Input is UU2
+albany_ccnS17_5@planetlab2.cs.purdue.edu
+albany_ccnS17_5@planetlab1.cs.uml.edu
+======================= UU3 =============================
+Input is UU3
+albany_ccnS17_5@earth.cs.brown.edu
+albany_ccnS17_5@planetlab1.temple.edu
+======================= UU4 =============================
+Input is UU4
+albany_ccnS17_5@node2.planetlab.mathcs.emory.edu
+albany_ccnS17_5@planetlab4.cs.uoregon.edu
+======================= UC1 =============================
+Input is UC1
+albany_ccnS17_5@planetlab2.cs.ucla.edu
+albany_ccnS17_5@plonk.cs.uwaterloo.ca
+======================= UC2 =============================
+Input is UC2
+albany_ccnS17_5@planetlab1.cs.purdue.edu
+albany_ccnS17_5@planetlab1.cs.ubc.ca
