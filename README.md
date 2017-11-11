@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Abstract 
+- In a relatively short period of time, the Internet has had an amazing impact on almost every facet of our lives. 
+- With Internet, we are able to access to new ideas, more information, unlimited possibilities, and a whole new world of communities.
+- The Internet has grown and evolved to influence how we interact, how we conduct business, how we learn, and how we proceed day to day and as much as it has changed our lives, in the process, the Internet itself has changed too.
+- The internet is a vital part of our lives. Just like your car, body, and robot underlings, your internet connection can be fine-tuned and made to work more efficiently. With just a little bit of effort, your surfing experience can be noticeably improved.
+- nowadays Smartphones, watches, homes, and cars are increasingly requiring stable internet connections. Home appliances, door locks, security cameras, cars, wearables, dog collars, and so many other inert devices are beginning to connect to the web.
+- In the world continuously connected with Internet needs to be stable and reliable, it should be able to deliver data on time and incorrect format.
 
-You can use the [editor on GitHub](https://github.com/iksheth/Internet-Path-Analysis-Using-Planet-Lab/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iksheth/Internet-Path-Analysis-Using-Planet-Lab/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Methodology
+- To measure Stability of Internet, we used nodes-pairs from Planet Lab – A global research network. The Pairs we used are as Under
+US - CZ
+US - PL
+US – GR
+US - NZ
+US – CA
+- In measurement Project I had made scripts which ping & traceroute its pair node periodically. Each node will ping & traceroute to another node every 1 hour.
+- In this project, I had created Bash Shell Scripts for various Functions. Usage and basic details of scripts are as under.
+                      1.Injector -> To inject Scripts on Nodes using SSH & SCP command. 
+                      2.Process_check -> To Check Status of Process on the Node.
+                      3.Logger -> To Log on Nodes With its project specific Alice.
+                      4.Data_reciver -> To Retrieve Ping & Traceroute data Files on Local Server. 
+                      5.Dir_deleter -> To Clean Nodes delete all scripts and data. 
+                      6.Demon_TA1_UN -> A Basic Example of Script Which I had ran on Node.
+- In Addition Of all Bash Scripts I had used third-party python script, which I got from stack overflow.
+- I had put demon and pingparser.py on Node and it generates dump of Ping & dump of traceroute to its Paired Node.
+- Moreover, It generates CSV file containing basic data like hope counts, host destination, average and more.
+- Every day running the scripts I checked status of my Process on every node & Retrieved data from Node.
