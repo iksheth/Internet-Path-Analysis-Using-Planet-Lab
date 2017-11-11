@@ -8,19 +8,19 @@
 
 # Methodology
 - To measure Stability of Internet, we used nodes-pairs from Planet Lab – A global research network. The Pairs we used are as Under
-US - CZ
-US - PL
-US – GR
-US - NZ
-US – CA
+  - US - CZ
+  - US - PL
+  - US – GR
+  - US - NZ
+  - US – CA
 - In measurement Project I had made scripts which ping & traceroute its pair node periodically. Each node will ping & traceroute to another node every 1 hour.
 - In this project, I had created Bash Shell Scripts for various Functions. Usage and basic details of scripts are as under.
-                      1.Injector -> To inject Scripts on Nodes using SSH & SCP command. 
-                      2.Process_check -> To Check Status of Process on the Node.
-                      3.Logger -> To Log on Nodes With its project specific Alice.
-                      4.Data_reciver -> To Retrieve Ping & Traceroute data Files on Local Server. 
-                      5.Dir_deleter -> To Clean Nodes delete all scripts and data. 
-                      6.Demon_TA1_UN -> A Basic Example of Script Which I had ran on Node.
+  1.Injector -> To inject Scripts on Nodes using SSH & SCP command. 
+  2.Process_check -> To Check Status of Process on the Node.
+  3.Logger -> To Log on Nodes With its project specific Alice.
+  4.Data_reciver -> To Retrieve Ping & Traceroute data Files on Local Server. 
+  5.Dir_deleter -> To Clean Nodes delete all scripts and data. 
+  6.Demon_TA1_UN -> A Basic Example of Script Which I had ran on Node.
 - In Addition Of all Bash Scripts I had used third-party python script, which I got from stack overflow.
 - I had put demon and pingparser.py on Node and it generates dump of Ping & dump of traceroute to its Paired Node.
 - Moreover, It generates CSV file containing basic data like hope counts, host destination, average and more.
